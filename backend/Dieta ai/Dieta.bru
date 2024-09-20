@@ -1,0 +1,23 @@
+meta {
+  name: Dieta
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3333/create
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "Gabriel Amaral",
+      "weight": "150kg",
+      "height": "1.80",
+      "age": "23",
+      "gender": "Masculino",
+      "objective": "Emagrecer",
+      "level": "Atividade fisica levemente 1 a 4 dias na semana"
+    }
+}
